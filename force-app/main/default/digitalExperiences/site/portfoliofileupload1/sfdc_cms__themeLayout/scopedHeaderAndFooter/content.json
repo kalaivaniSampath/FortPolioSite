@@ -1,0 +1,68 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Scoped Header and Footer",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"b21af306-c25e-47e7-b218-2b154fe67665\",\"columns\":[{\"UUID\":\"305ddbb1-bc4e-42bb-afe9-f9e410c5ce97\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "305ddbb1-bc4e-42bb-afe9-f9e410c5ce97",
+            "name" : "headerSection",
+            "title" : "Theme Header",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b21af306-c25e-47e7-b218-2b154fe67665",
+          "type" : "component"
+        } ],
+        "id" : "8078f7da-766d-43be-b057-41b37a5af63b",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"604a9df4-2605-4467-8860-7d5578a3679c\",\"columns\":[{\"UUID\":\"b2b8681c-8276-4f57-a944-95d6858636d5\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "b2b8681c-8276-4f57-a944-95d6858636d5",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "604a9df4-2605-4467-8860-7d5578a3679c",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundColor" : "",
+            "paddingHorizontal" : "none",
+            "paddingVertical" : "none",
+            "text" : "This is our Portfolio",
+            "textAlign" : "center",
+            "textDecoration" : "{\"bold\":false}",
+            "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+          },
+          "definition" : "dxp_base:textBlock",
+          "id" : "bcbd635d-fcfe-457c-b43a-24ad6a162f9a",
+          "type" : "component"
+        } ],
+        "id" : "36110c67-4017-48f4-8795-b34f26febf4e",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "community_byo:scopedHeaderAndFooter",
+      "id" : "95650f9b-d190-4d1b-a85e-a4823da79b4f",
+      "type" : "component"
+    }
+  }
+}
